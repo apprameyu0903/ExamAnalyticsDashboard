@@ -1,0 +1,357 @@
+quickfinish
+2023-10-17T07:30:00.000000Z
+examems.cdacchn.in 9200 secureeye 10.184.61.202 27017 agnipathoct2023
+=-=-=-=-=-=- ['iafstar-av-mock-main-20231017']
+ STRAT TIME :: Tue Oct 17 07:45:14 2023
+COUNT :  1143
+time :  0.2999138832092285
+SHAPE (1143, 41)
+                                                                                                           column5  \
+0   msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068  
+
+                                                                           msg  \
+0  INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068  
+
+                  eventdate  \
+0  2023-10-17T07:38:25.000Z  
+
+                                                   tags  serverip json   g3  \
+0  [beats_input_codec_plain_applied, _grokparsefailure]  10.0.0.1   {}  068  
+
+  papercode            input examslot            g1                host  \
+0        OS  {'type': 'log'}       B5  PY2310GOR452  {'name': 'PXEPro'}  
+
+                                                                                   log  \
+0  {'offset': 4378633, 'file': {'path': '/var/log/examhosts/10.0.0.1/2023-10-17.log'}}  
+
+  sessionid                @timestamp  \
+0      6785  2023-10-17T07:38:32.843Z  
+
+                                                                                                                                                                                                                message  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068, 6785]  
+
+                                                            fields  \
+0  {'ccode': 452, 'examv': 'star1023pro1', 'examtype': 'starexam'}  
+
+                                               column1 centercode slot  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452        452   B5  
+
+                                                                                                                                                                                     agent  \
+0  {'hostname': 'PXEPro', 'version': '7.16.0', 'ephemeral_id': 'd21f9a4a-1476-415a-b81f-9aab3bdaa808', 'type': 'filebeat', 'name': 'PXEPro', 'id': '384a804b-1b86-4936-a44b-5876fbe28b4c'}  
+
+        column3   column2          candidateid @version  \
+0   host: cdac1   slot:B5  PY2310GOR452OSB5068        1  
+
+                     ecs       cversion column6              column4 column8  \
+0  {'version': '1.12.0'}   star1023pro1   6785]   cver: star1023pro1     NaN  
+
+  column9 column7   m2   m3 method column10 column11 column15 column14  \
+0     NaN     NaN  NaN  NaN    NaN      NaN      NaN      NaN      NaN  
+
+  column12 column13  
+0      NaN      NaN  
+                                                                                                           column5  \
+0   msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068  
+
+                                                                           msg  \
+0  INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068  
+
+                  eventdate  \
+0  2023-10-17T07:38:25.000Z  
+
+                                                   tags  serverip json   g3  \
+0  [beats_input_codec_plain_applied, _grokparsefailure]  10.0.0.1   {}  068  
+
+  papercode            input examslot            g1                host  \
+0        OS  {'type': 'log'}       B5  PY2310GOR452  {'name': 'PXEPro'}  
+
+                                                                                   log  \
+0  {'offset': 4378633, 'file': {'path': '/var/log/examhosts/10.0.0.1/2023-10-17.log'}}  
+
+  sessionid                @timestamp  \
+0      6785  2023-10-17T07:38:32.843Z  
+
+                                                                                                                                                                                                                message  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068, 6785]  
+
+                                                            fields  \
+0  {'ccode': 452, 'examv': 'star1023pro1', 'examtype': 'starexam'}  
+
+                                               column1 centercode slot  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452        452   B5  
+
+                                                                                                                                                                                     agent  \
+0  {'hostname': 'PXEPro', 'version': '7.16.0', 'ephemeral_id': 'd21f9a4a-1476-415a-b81f-9aab3bdaa808', 'type': 'filebeat', 'name': 'PXEPro', 'id': '384a804b-1b86-4936-a44b-5876fbe28b4c'}  
+
+        column3   column2          candidateid @version  \
+0   host: cdac1   slot:B5  PY2310GOR452OSB5068        1  
+
+                     ecs       cversion column6              column4 column8  \
+0  {'version': '1.12.0'}   star1023pro1   6785]   cver: star1023pro1     NaN  
+
+  column9 column7   m2   m3 method column10 column11 column15 column14  \
+0     NaN     NaN  NaN  NaN    NaN      NaN      NaN      NaN      NaN  
+
+  column12 column13  
+0      NaN      NaN  
+Length After ::  191
+191
+ candidateid  ???????
+<bound method NDFrame.head of                      eventdate  \
+0     2023-10-17T07:38:25.000Z  
+8     2023-10-17T07:38:39.000Z  
+16    2023-10-17T07:38:47.000Z  
+19    2023-10-17T07:39:24.000Z  
+30    2023-10-17T07:39:52.000Z  
+...                        ...  
+1129  2023-10-17T07:45:24.000Z  
+1131  2023-10-17T07:45:26.000Z  
+1134  2023-10-17T07:45:21.000Z  
+1138  2023-10-17T07:45:17.000Z  
+1139  2023-10-17T07:45:31.000Z  
+
+                                                                                                                                                                                                                   message  \
+0     2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068, 6785]  
+8     2023-10-17T13:08:48.141038+05:30 10.0.0.1 code: 404, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB5026, 4037]  
+16    2023-10-17T13:08:54.518365+05:30 10.0.0.1 code: 394, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:47 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310KAN394OSB5126, 7039]  
+19    2023-10-17T13:09:33.002767+05:30 10.0.0.1 code: 350, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:09:24 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JAI350OSB5107, 0577]  
+30    2023-10-17T13:10:01.557697+05:30 10.0.0.1 code: 333, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:09:52 INFO AuditLogger:1068 Candidate Submitted Examination: [DL2310GGR333OSB5064, 3161]  
+...                                                                                                                                                                                                                    ...  
+1129  2023-10-17T13:15:28.099256+05:30 10.0.0.1 code: 328, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:15:24 INFO AuditLogger:1068 Candidate Submitted Examination: [DL2310DEL328OSB5009, 5871]  
+1131  2023-10-17T13:15:28.788423+05:30 10.0.0.1 code: 344, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:15:26 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310SUR344OSB5055, 2091]  
+1134  2023-10-17T13:15:25.755743+05:30 10.0.0.1 code: 368, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:15:21 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JOD368OSB5093, 8194]  
+1138  2023-10-17T13:15:27.273917+05:30 10.0.0.1 code: 352, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:15:17 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JAI352OSB5152, 2593]  
+1139  2023-10-17T13:15:35.674871+05:30 10.0.0.1 code: 376, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:15:31 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310GLR376OSB5016, 0465]  
+
+     examslot centercode papercode  \
+0          B5        452        OS  
+8          B5        404        OS  
+16         B5        394        OS  
+19         B5        350        OS  
+30         B5        333        OS  
+...       ...        ...       ...  
+1129       B5        328        OS  
+1131       B5        344        OS  
+1134       B5        368        OS  
+1138       B5        352        OS  
+1139       B5        376        OS  
+
+                                                                                                             column5  \
+0      msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB506  
+8      msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB502  
+16     msg: [-Log4J-] 17/10/2023 13:08:47 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310KAN394OSB512  
+19     msg: [-Log4J-] 17/10/2023 13:09:24 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JAI350OSB510  
+30     msg: [-Log4J-] 17/10/2023 13:09:52 INFO AuditLogger:1068 Candidate Submitted Examination: [DL2310GGR333OSB506  
+...                                                                                                              ...  
+1129   msg: [-Log4J-] 17/10/2023 13:15:24 INFO AuditLogger:1068 Candidate Submitted Examination: [DL2310DEL328OSB500  
+1131   msg: [-Log4J-] 17/10/2023 13:15:26 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310SUR344OSB505  
+1134   msg: [-Log4J-] 17/10/2023 13:15:21 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JOD368OSB509  
+1138   msg: [-Log4J-] 17/10/2023 13:15:17 INFO AuditLogger:1068 Candidate Submitted Examination: [JA2310JAI352OSB515  
+1139   msg: [-Log4J-] 17/10/2023 13:15:31 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310GLR376OSB501  
+
+     column6 sessionid  
+0      6785]      6785  
+8      4037]      4037  
+16     7039]      7039  
+19     0577]      0577  
+30     3161]      3161  
+...      ...       ...  
+1129   5871]      5871  
+1131   2091]      2091  
+1134   8194]      8194  
+1138   2593]      2593  
+1139   0465]      0465  
+
+[191 rows x 8 columns]>
+time :  2.397230386734009
+Before group clogin
+            candidateid                 eventdate  \
+0   PA2310CHA435OSB5060  2023-10-17T07:39:46.000Z  
+1   KA2310MEE405OSB5149  2023-10-17T07:30:07.000Z  
+2   KA2310MEE405OSB5137  2023-10-17T07:30:07.000Z  
+3   KA2310MEE405OSB5157  2023-10-17T07:30:06.000Z  
+4   DL2310NOI341OSB5133  2023-10-17T07:30:05.000Z  
+5   DL2310NOI341OSB5116  2023-10-17T07:30:06.000Z  
+6   DL2310NOI341OSB5014  2023-10-17T07:30:08.000Z  
+7   DL2310NOI341OSB5009  2023-10-17T07:30:08.000Z  
+8   JA2310JAI363OSB5023  2023-10-17T07:30:06.000Z  
+9   JA2310JAI363OSB5082  2023-10-17T07:30:06.000Z  
+10  JA2310JAI363OSB5130  2023-10-17T07:30:07.000Z  
+11  JA2310JAI363OSB5025  2023-10-17T07:30:08.000Z  
+12  JA2310JAI363OSB5107  2023-10-17T07:30:02.000Z  
+13  JA2310JAI363OSB5094  2023-10-17T07:30:06.000Z  
+14  JA2310JAI363OSB5097  2023-10-17T07:30:06.000Z  
+15  JA2310JAI363OSB5145  2023-10-17T07:30:07.000Z  
+16  JA2310JAI363OSB5070  2023-10-17T07:30:08.000Z  
+17  JA2310JAI363OSB5037  2023-10-17T07:30:07.000Z  
+18  JA2310JOD368OSB5160  2023-10-17T07:30:04.000Z  
+19  JA2310JOD368OSB5155  2023-10-17T07:30:04.000Z  
+
+                                                                                                                                                                                                                                                            message  \
+0   2023-10-17T13:09:53.042214+05:30 10.0.0.1 code: 435, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:09:46 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(PA2310CHA435OSB5060,3943,STAR0124OS14B5,10.0.6.105,10.0.0.1)  
+1    2023-10-17T13:00:08.695137+05:30 10.0.0.1 code: 405, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5149,0516,STAR0124OS14B5,10.0.6.72,10.0.0.1)  
+2    2023-10-17T13:00:08.695137+05:30 10.0.0.1 code: 405, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5137,4189,STAR0124OS14B5,10.0.6.82,10.0.0.1)  
+3   2023-10-17T13:00:08.695137+05:30 10.0.0.1 code: 405, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5157,0962,STAR0124OS14B5,10.0.6.127,10.0.0.1)  
+4   2023-10-17T13:00:08.620828+05:30 10.0.0.1 code: 341, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:05 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5133,3167,STAR0124OS14B5,10.0.5.178,10.0.0.1)  
+5   2023-10-17T13:00:08.620828+05:30 10.0.0.1 code: 341, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5116,8554,STAR0124OS14B5,10.0.5.179,10.0.0.1)  
+6    2023-10-17T13:00:08.620828+05:30 10.0.0.1 code: 341, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5014,4147,STAR0124OS14B5,10.0.5.87,10.0.0.1)  
+7    2023-10-17T13:00:08.620828+05:30 10.0.0.1 code: 341, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5009,4488,STAR0124OS14B5,10.0.5.85,10.0.0.1)  
+8    2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5023,7030,STAR0124OS14B5,10.0.6.94,10.0.0.1)  
+9    2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5082,8423,STAR0124OS14B5,10.0.6.37,10.0.0.1)  
+10  2023-10-17T13:00:08.885051+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5130,3819,STAR0124OS14B5,10.0.6.161,10.0.0.1)  
+11   2023-10-17T13:00:08.885189+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5025,8939,STAR0124OS14B5,10.0.6.69,10.0.0.1)  
+12   2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:02 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5107,7982,STAR0124OS14B5,10.0.6.38,10.0.0.1)  
+13   2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5094,6345,STAR0124OS14B5,10.0.6.19,10.0.0.1)  
+14   2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5097,0743,STAR0124OS14B5,10.0.6.20,10.0.0.1)  
+15  2023-10-17T13:00:08.885051+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5145,9957,STAR0124OS14B5,10.0.6.209,10.0.0.1)  
+16  2023-10-17T13:00:08.885189+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5070,0038,STAR0124OS14B5,10.0.6.112,10.0.0.1)  
+17   2023-10-17T13:00:08.884996+05:30 10.0.0.1 code: 363, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5037,0448,STAR0124OS14B5,10.0.6.82,10.0.0.1)  
+18  2023-10-17T13:00:11.422873+05:30 10.0.0.1 code: 368, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:04 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JOD368OSB5160,9984,STAR0124OS14B5,10.0.6.165,10.0.0.1)  
+19  2023-10-17T13:00:11.422873+05:30 10.0.0.1 code: 368, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:04 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JOD368OSB5155,8612,STAR0124OS14B5,10.0.6.185,10.0.0.1)  
+
+   examslot centercode papercode  \
+0        B5        435        OS  
+1        B5        405        OS  
+2        B5        405        OS  
+3        B5        405        OS  
+4        B5        341        OS  
+5        B5        341        OS  
+6        B5        341        OS  
+7        B5        341        OS  
+8        B5        363        OS  
+9        B5        363        OS  
+10       B5        363        OS  
+11       B5        363        OS  
+12       B5        363        OS  
+13       B5        363        OS  
+14       B5        363        OS  
+15       B5        363        OS  
+16       B5        363        OS  
+17       B5        363        OS  
+18       B5        368        OS  
+19       B5        368        OS  
+
+                                                                                                                     column5  \
+0    msg: [-Log4J-] 17/10/2023 13:09:46 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(PA2310CHA435OSB5060  
+1    msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5149  
+2    msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5137  
+3    msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE405OSB5157  
+4    msg: [-Log4J-] 17/10/2023 13:00:05 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5133  
+5    msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5116  
+6    msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5014  
+7    msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(DL2310NOI341OSB5009  
+8    msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5023  
+9    msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5082  
+10   msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5130  
+11   msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5025  
+12   msg: [-Log4J-] 17/10/2023 13:00:02 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5107  
+13   msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5094  
+14   msg: [-Log4J-] 17/10/2023 13:00:06 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5097  
+15   msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5145  
+16   msg: [-Log4J-] 17/10/2023 13:00:08 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5070  
+17   msg: [-Log4J-] 17/10/2023 13:00:07 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JAI363OSB5037  
+18   msg: [-Log4J-] 17/10/2023 13:00:04 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JOD368OSB5160  
+19   msg: [-Log4J-] 17/10/2023 13:00:04 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(JA2310JOD368OSB5155  
+
+   slot column6 sessionid  
+0    B5    3943      3943  
+1    B5    0516      0516  
+2    B5    4189      4189  
+3    B5    0962      0962  
+4    B5    3167      3167  
+5    B5    8554      8554  
+6    B5    4147      4147  
+7    B5    4488      4488  
+8    B5    7030      7030  
+9    B5    8423      8423  
+10   B5    3819      3819  
+11   B5    8939      8939  
+12   B5    7982      7982  
+13   B5    6345      6345  
+14   B5    0743      0743  
+15   B5    9957      9957  
+16   B5    0038      0038  
+17   B5    0448      0448  
+18   B5    9984      9984  
+19   B5    8612      8612  
+Before group cend_df
+                  eventdate  \
+0  2023-10-17T07:38:25.000Z  
+8  2023-10-17T07:38:39.000Z  
+
+                                                                                                                                                                                                                message  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068, 6785]  
+8  2023-10-17T13:08:48.141038+05:30 10.0.0.1 code: 404, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB5026, 4037]  
+
+  examslot centercode papercode  \
+0       B5        452        OS  
+8       B5        404        OS  
+
+                                                                                                          column5  \
+0   msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB506  
+8   msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB502  
+
+  column6 sessionid  
+0   6785]      6785  
+8   4037]      4037  
+After group clogin
+  centercode slot sessionid          candidateid                 eventdate  \
+0        306   B5      0090  CH2310BGM306OSB5031  2023-10-17T07:34:47.000Z  
+1        306   B5      0133  CH2310BGM306OSB5084  2023-10-17T07:34:53.000Z  
+
+                                                                                                                                                                                                                                                          message  \
+0  2023-10-17T13:04:56.463434+05:30 10.0.0.1 code: 306, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:04:47 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(CH2310BGM306OSB5031,0090,STAR0124OS14B5,10.0.6.50,10.0.0.1)  
+1  2023-10-17T13:04:56.475269+05:30 10.0.0.1 code: 306, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:04:53 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(CH2310BGM306OSB5084,0133,STAR0124OS14B5,10.0.6.72,10.0.0.1)  
+
+  examslot papercode  \
+0       B5        OS  
+1       B5        OS  
+
+                                                                                                                    column5  \
+0   msg: [-Log4J-] 17/10/2023 13:04:47 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(CH2310BGM306OSB5031  
+1   msg: [-Log4J-] 17/10/2023 13:04:53 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(CH2310BGM306OSB5084  
+
+  column6  
+0    0090  
+1    0133  
+After JOIN
+  centercode slot sessionid          candidateid      eventdate_clog  \
+0        452   B5      6785  PY2310GOR452OSB5068 2023-10-17 07:30:16  
+1        404   B5      4037  KA2310MEE404OSB5026 2023-10-17 07:30:17  
+
+                                                                                                                                                                                                                                                      message_clog  \
+0  2023-10-17T13:00:24.779580+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:16 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(PY2310GOR452OSB5068,6785,STAR0124OS14B5,10.0.6.194,10.0.0.1)  
+1  2023-10-17T13:00:17.796048+05:30 10.0.0.1 code: 404, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:00:17 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE404OSB5026,4037,STAR0124OS14B5,10.0.6.139,10.0.0.1)  
+
+  examslot papercode_clog  \
+0       B5             OS  
+1       B5             OS  
+
+                                                                                                               column5_clog  \
+0   msg: [-Log4J-] 17/10/2023 13:00:16 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(PY2310GOR452OSB5068  
+1   msg: [-Log4J-] 17/10/2023 13:00:17 INFO AuditLogger:128 ExamineeSessionServiceImpl startExamination(KA2310MEE404OSB5026  
+
+  column6_clog      eventdate_cend  \
+0         6785 2023-10-17 07:38:25  
+1         4037 2023-10-17 07:38:39  
+
+                                                                                                                                                                                                           message_cend  \
+0  2023-10-17T13:08:27.816878+05:30 10.0.0.1 code: 452, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB5068, 6785]  
+1  2023-10-17T13:08:48.141038+05:30 10.0.0.1 code: 404, slot:B5, host: cdac1, cver: star1023pro1, msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB5026, 4037]  
+
+  papercode_cend  \
+0             OS  
+1             OS  
+
+                                                                                                     column5_cend  \
+0   msg: [-Log4J-] 17/10/2023 13:08:25 INFO AuditLogger:1068 Candidate Submitted Examination: [PY2310GOR452OSB506  
+1   msg: [-Log4J-] 17/10/2023 13:08:39 INFO AuditLogger:1068 Candidate Submitted Examination: [KA2310MEE404OSB502  
+
+  column6_cend    end_td end_td_c  
+0        6785]  8.150000    quick  
+1        4037]  8.366667    quick  
+QUICK FINISHER - DONE
+time QUICK FINISHER :  2.5057015419006348
+CONSOLIDATE - DONE
+time CONSOLIDATE QUICK FINISHER :  2.517704486846924
+quick
